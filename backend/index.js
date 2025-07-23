@@ -12,7 +12,7 @@ app.use(cors());
 
 app.use(express.json());
 
-const taskRoutes = require('./routes/taskRoutes');
+const taskRoutes = require('../routes/taskRoutes');
 app.use('/', taskRoutes);
 
 mongoose.connect(process.env.MONGODB_URI, {
