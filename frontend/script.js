@@ -1,4 +1,4 @@
-const API = 'http://localhost:3000/tasks';
+const API = 'https://lab3web-jnk4.onrender.com/tasks';
 
 const list = document.getElementById('task-list');
 const form = document.getElementById('task-form');
